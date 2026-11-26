@@ -1,0 +1,6 @@
+{
+  "name": "CineMatch",
+  "description": "Personalized movie recommendation system powered by hybrid filtering and live TMDB movie data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
