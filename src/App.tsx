@@ -57,7 +57,7 @@ export default function App() {
 
   const [guestRegion, setGuestRegion] = useState<string>(() => {
     try {
-      return localStorage.getItem('cinematch_region') || 'PH';
+      return localStorage.getItem('cinewatch_region') || 'PH';
     } catch {
       return 'PH';
     }
@@ -298,7 +298,7 @@ export default function App() {
   const handleChangeRegion = async (newRegion: string) => {
     setGuestRegion(newRegion);
     try {
-      localStorage.setItem('cinematch_region', newRegion);
+      localStorage.setItem('cinewatch_region', newRegion);
     } catch {
       // ignore storage errors
     }
@@ -369,7 +369,7 @@ export default function App() {
               <Menu className="w-5 h-5" />
             </button>
             <div className="flex items-center gap-2 text-sm min-w-0">
-              <span className="text-[#808585] hidden sm:inline">CineMatch</span>
+              <span className="text-[#808585] hidden sm:inline">CineWatch</span>
               <span className="text-[#808585] hidden sm:inline" aria-hidden="true">/</span>
               <h1 className="font-display text-base sm:text-lg font-bold text-white truncate">
                 {SECTION_TITLES[activeSection]}
