@@ -89,7 +89,7 @@ export function SettingsView({
               Recommendation Filtering
             </h3>
             <p className="text-sm text-[#B4B8B8]">
-              Control how CineMatch filters candidate titles in your Top 10 recommendations.
+              Control how CineWatch filters candidate titles in your Top 10 recommendations.
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ export function SettingsView({
               Server TMDB Connection: {tmdbConfigured ? 'Connected' : 'Pending TMDB_API_KEY configuration'}
             </p>
             <p className="text-xs text-[#808585] leading-relaxed pt-1">
-              This product uses the TMDB API but is not endorsed or certified by TMDB. Regional streaming, rental, and purchase availability links are sourced via JustWatch through TMDB. CineMatch does not host, upload, or distribute movie files.
+              This product uses the TMDB API but is not endorsed or certified by TMDB. Regional streaming, rental, and purchase availability links are sourced via JustWatch through TMDB. CineWatch does not host, upload, or distribute movie files.
             </p>
           </div>
         </div>

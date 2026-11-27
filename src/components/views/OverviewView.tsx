@@ -58,7 +58,7 @@ export function OverviewView({
       <section className="rounded-2xl bg-[#272828] border border-white/[0.08] p-6 sm:p-7 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
         <div className="space-y-2 max-w-2xl">
           <h2 className="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight text-balance">
-            {user ? `Welcome back, ${user.username}` : 'Welcome to CineMatch'}
+            {user ? `Welcome back, ${user.username}` : 'Welcome to CineWatch'}
           </h2>
           <p className="text-sm sm:text-base text-[#B4B8B8] leading-relaxed">
             {user
@@ -203,7 +203,7 @@ export function OverviewView({
         </section>
       )}
 
-      {/* Free Full-Length Movies (Watch Inside CineMatch) */}
+      {/* Free Full-Length Movies (Watch Inside CineWatch) */}
       {(loading || publicDomainMovies.length > 0) && (
         <section className="space-y-4">
           <div className="flex items-center justify-between gap-4">
@@ -212,7 +212,7 @@ export function OverviewView({
                 Free Full Movies — Watch Now
               </h3>
               <p className="text-xs text-[#B4B8B8] mt-0.5">
-                Public domain feature films playable in full directly inside CineMatch
+                Public domain feature films playable in full directly inside CineWatch
               </p>
             </div>
             <button

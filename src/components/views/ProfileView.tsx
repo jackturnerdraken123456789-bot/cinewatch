@@ -84,7 +84,7 @@ export function ProfileView({
         <div>
           <h2 className="font-display text-lg font-bold text-white">Account Information</h2>
           <p className="text-xs text-[#B4B8B8]">
-            Manage your CineMatch display name and email address.
+            Manage your CineWatch display name and email address.
           </p>
         </div>
 
