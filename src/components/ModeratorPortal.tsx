@@ -260,7 +260,7 @@ export function ModeratorPortal({
         allow_watchlist: draftAllowWatchlist,
       });
       onSystemStatusUpdated(res.systemStatus);
-      setNotice('System status updated across CineMatch.');
+      setNotice('System status updated across CineWatch.');
       await loadConsoleData();
     } catch (err) {
       setConsoleError(err instanceof ApiError ? err.message : 'Failed to update system status.');
@@ -316,7 +316,7 @@ export function ModeratorPortal({
               <Shield className="w-4 h-4 stroke-[2.5]" />
             </div>
             <div className="flex items-center gap-2 text-sm">
-              <span className="font-display font-bold text-white">CineMatch</span>
+              <span className="font-display font-bold text-white">CineWatch</span>
               <span className="text-[#808585]" aria-hidden="true">·</span>
               <span className="text-[#B4B8B8]">Moderator Access</span>
             </div>
@@ -328,7 +328,7 @@ export function ModeratorPortal({
             className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-[#272828] border border-white/10 text-xs font-medium text-[#B4B8B8] hover:text-white hover:border-white/25 transition-colors"
           >
             <ArrowLeft className="w-3.5 h-3.5" />
-            <span>Back to CineMatch</span>
+            <span>Back to CineWatch</span>
           </button>
         </header>
 
@@ -534,7 +534,7 @@ export function ModeratorPortal({
             <Shield className="w-4 h-4 stroke-[2.5]" />
           </div>
           <div className="flex items-center gap-2 text-sm min-w-0">
-            <span className="font-display font-bold text-white hidden sm:inline">CineMatch</span>
+            <span className="font-display font-bold text-white hidden sm:inline">CineWatch</span>
             <span className="text-[#808585] hidden sm:inline" aria-hidden="true">·</span>
             <h1 className="font-display text-base font-bold text-white truncate">
               Moderator Console

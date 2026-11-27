@@ -247,7 +247,7 @@ export function AuthModal({ open, genres, initialMode = 'login', onClose, onSucc
       <div className="w-full max-w-md rounded-2xl bg-[#272828] border border-white/10 p-6 shadow-2xl">
         <div className="flex items-center justify-between mb-5">
           <div>
-            <h2 className="font-display text-xl font-bold text-white">CineMatch Account</h2>
+            <h2 className="font-display text-xl font-bold text-white">CineWatch Account</h2>
             <p className="text-xs text-[#B4B8B8] mt-0.5">
               Save ratings, manage your watchlist, and unlock hybrid recommendations.
             </p>

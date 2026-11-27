@@ -19,7 +19,7 @@ let memoryToken: string | null = null;
 
 // Clear any legacy persistent token on startup
 try {
-  localStorage.removeItem('cinematch_token');
+  localStorage.removeItem('cinewatch_token');
 } catch {
   // ignore storage errors
 }
@@ -31,7 +31,7 @@ export function getStoredToken(): string | null {
 export function setStoredToken(token: string | null): void {
   memoryToken = token;
   try {
-    localStorage.removeItem('cinematch_token');
+    localStorage.removeItem('cinewatch_token');
   } catch {
     // ignore storage errors
   }

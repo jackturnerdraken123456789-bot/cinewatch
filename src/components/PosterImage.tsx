@@ -27,7 +27,7 @@ export function PosterImage({ posterPath, title, releaseYear, className = '' }: 
         aria-label={`${title} poster unavailable`}
       >
         <div className="w-full flex items-center justify-between text-[11px] text-[#808585] font-mono tabular-nums">
-          <span>CINEMATCH</span>
+          <span>CINEWATCH</span>
           {releaseYear ? <span>{releaseYear}</span> : null}
         </div>
         <div className="flex flex-col items-center gap-3 my-auto px-2">

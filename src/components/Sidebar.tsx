@@ -62,7 +62,7 @@ export function Sidebar({
             <Film className="w-4 h-4 stroke-[2.5]" />
           </div>
           <span className="font-display text-lg font-bold tracking-tight text-white whitespace-nowrap">
-            CineMatch
+            CineWatch
           </span>
         </button>
         <button

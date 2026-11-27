@@ -14,8 +14,8 @@ export function TmdbNotice({ message }: TmdbNoticeProps) {
         </p>
         <p className="text-xs text-[#B4B8B8] leading-relaxed">
           {message
-            ? `TMDB returned "${message}", so CineMatch automatically switched to real movies from Apple iTunes (with playable trailers) and free full-length public domain films from Internet Archive. Update TMDB_API_KEY in Secrets anytime to restore TMDB regional streaming links.`
-            : 'CineMatch is using live no-key movie feeds (Apple iTunes & Internet Archive public domain films). Add a valid TMDB_API_KEY in Secrets anytime for TMDB cast lists and Netflix/Prime/Disney+ regional availability.'}
+            ? `TMDB returned "${message}", so CineWatch automatically switched to real movies from Apple iTunes (with playable trailers) and free full-length public domain films from Internet Archive. Update TMDB_API_KEY in Secrets anytime to restore TMDB regional streaming links.`
+            : 'CineWatch is using live no-key movie feeds (Apple iTunes & Internet Archive public domain films). Add a valid TMDB_API_KEY in Secrets anytime for TMDB cast lists and Netflix/Prime/Disney+ regional availability.'}
         </p>
       </div>
     </div>
